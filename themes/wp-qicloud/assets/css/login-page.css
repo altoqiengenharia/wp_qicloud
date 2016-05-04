@@ -1,0 +1,21 @@
+body.login {background: #232526; background-image: linear-gradient(#232526 , #414345); background-image: -webkit-linear-gradient(#232526 , #414345); background-size: auto 200%; background-position: 0 100%; transition: background-position 0.5s; }
+body.login:hover{ background-position: 0 0 }
+body.login div#login {    position: relative; z-index: 1;}
+body.login div#login h1 { background-image: url('../img/elements/brands-altoqi/brand_altoqi-small-light.svg'); background-position: right 0; background-size: cover; position: fixed; bottom: -50px; width: 100%; left: 0; height: 600px; opacity: 0.05; z-index: -1; transition: background-position 30s; }
+body.login:hover div#login h1{background-position: right 0;   background-position: 0 0;}
+
+body.login div#login h1 a {   display: none}
+body.login div#login form#loginform {}
+body.login div#login form#loginform p {}
+body.login div#login form#loginform p label {}
+body.login div#login form#loginform input {}
+body.login div#login form#loginform input#user_login {}
+body.login div#login form#loginform input#user_pass {}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {}
+body.login div#login form#loginform p.submit input#wp-submit {}
+body.login div#login p#nav {}
+body.login div#login p#nav a {}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {}
